@@ -1,4 +1,4 @@
-package br.com.depasser.time.swing;
+package com.bearprogrammer.time.swing;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -21,7 +21,8 @@ import javax.swing.JPanel;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import br.com.depasser.time.TimeInterval;
+import com.bearprogrammer.time.TimeInterval;
+
 
 /**
  * Time interval selection tool is used to select two points in time that
@@ -366,7 +367,7 @@ public class TimeIntervalSelector extends JPanel implements ChangeListener, Mous
 		if (startKnob != null && startKnob.contains(e.getPoint())) {
 			setCursor(Cursor.getPredefinedCursor(Cursor.E_RESIZE_CURSOR));
 		} else if (endKnob != null && endKnob.contains(e.getPoint())) {
-			setCursor(Cursor.getPredefinedCursor(Cursor.E_RESIZE_CURSOR));
+			setCursor(Cursor.getPredefinedCursor(Cursor.W_RESIZE_CURSOR));
 		} else if (body != null && body.contains(e.getPoint())) {
 			setCursor(Cursor.getPredefinedCursor(Cursor.MOVE_CURSOR));
 		} else {

@@ -1,4 +1,4 @@
-package br.com.depasser.time;
+package com.bearprogrammer.time;
 
 import java.util.Calendar;
 import java.util.HashSet;
