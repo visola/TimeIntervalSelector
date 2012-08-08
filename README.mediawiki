@@ -2,4 +2,4 @@
 
 Some time ago, in one of my jobs I had a lot of free time and spent some of that replacing a spreadsheet that I used to track my own time with a Java Swing application that would store all my activities. But after I finished the first version I wasn't happy with it because dealing with time intervals in Swing is very cumbersome. 
 
-Because of that I decided to write my own time interval selector. This code is the result of that work. You can see a screenshot of the component in my blog: [[http://bearprogrammer.wordpress.com/time-interval-selector/|Bear Programmer]]
+Because of that I decided to write my own time interval selector. This code is the result of that work. You can see a screenshot of the component in my blog: http://bearprogrammer.wordpress.com/time-interval-selector/
