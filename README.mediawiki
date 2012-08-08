@@ -1,4 +1,4 @@
-= Time Interval Selector =
+== Time Interval Selector ==
 
 Some time ago, in one of my jobs I had a lot of free time and spent some of that replacing a spreadsheet that I used to track my own time with a Java Swing application that would store all my activities. But after I finished the first version I wasn't happy with it because dealing with time intervals in Swing is very cumbersome. 
 
